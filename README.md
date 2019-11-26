@@ -1,2 +1,2 @@
-Reasponsive page
-Dawnload the Zip file and Open the index.html in your Browser.
+Reasponsive page <\br>
+Download the Zip file and Open the index.html in your Browser.
