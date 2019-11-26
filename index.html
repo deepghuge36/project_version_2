@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <noscript>
+    <!-- anchor linking to external file -->
+    <a href="https://www.mozilla.com/">External Link</a>
+  </noscript>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="./assets/javascript/script.js"></script>
+  <script src="https://kit.fontawesome.com/815df5962a.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <title></title>
+</head>
+
+<body>
+  <header>
+    <div class="nav-logo">
+
+      <a href="index.html">
+        <figure><img src="./assets/images/logo.ba23b334.png" class="nav-img" width="200px" height="60px"
+            alt="home-logo">
+        </figure>
+      </a>
+
+      <ul class="nav-bar">
+        <li><a href="#" class="button">Login</a> </li>
+        <li><a href="#" class="button">Sign up</a> </li>
+      </ul>
+    </div>
+
+    <div class="main-para">
+      <h2 id="main-h2">FIND A SUITABLE DOCTORS IN YOUR LOCATION</h2>
+    </div>
+    <div class="search-tool">
+      <input type="text" class="inputbox" placeholder="Service: e.g.Dentist,Eye,Skin" inputmode="search">
+      <input type="text" class="inputbox" placeholder="Location: e.g.Mumbai,Pune,Thane" inputmode="search">
+      <button id="btn-search">Doctors Search</button>
+    </div>
+    <div class="second-para">
+      <div class="container py-5">
+        <div class="output" id="output">
+          <h1 class="cursor"></h1>
+          <p></p>
+        </div>
+      </div>
+    </div>
+
+    <!-- <div class="second-para">
+      <h3>COMPARE: DOCTOR EXPEIENCE, TREATMENT COST, ADVANCED TECHNOLOGY &amp; HOSPITAL SETUP</h3>
+    </div> -->
+    <div class="checkboxes">
+      <div class="checkbox-doctors"><input id="boxid-doctors" onclick="myFunction('DOCTORS')"
+          onclick="buttonFunction('Doctors')" type="checkbox" checked><label for="boxid-doctors"><i
+            class="fas fa-user-md"></i> Doctors</label>
+      </div>
+      <div class="checkbox-clinics"><input id="boxid-clinics" onclick="myFunction('CLINICS')"
+          onclick="buttonFunction('Clinics')" type="checkbox"><label for="boxid-clincs"><i
+            class="fas fa-clinic-medical"></i> Clinics</label>
+      </div>
+      <div class="checkbox-hospitals"><input id="boxid-hospitals" onclick="myFunction('HOSPITALS')"
+          type="checkbox"><label for="boxid-clincs"><i class="far fa-hospital"></i> Hospital</label>
+      </div>
+    </div>
+  </header>
+
+  <div class="middle-section">
+    <div class="features-title">
+      <h3 id="middle-para">WE HAVE MORE THAN 10,000+ CERTIFIED DOCTORS FOR YOU</h3>
+    </div>
+    <hr>
+    <section class="features">
+      <div class="features-columns">
+        <div class="coloums-doctors">
+          <p id="doc">
+            Doctors in Mumbai
+          </p>
+        </div>
+        <div>
+          <ul class="features-list">
+            <li><a href="#">FUE - Follicular Unit Extraction</a></li>
+            <li><a href="#">Robotic Hair Transplant</a></li>
+            <li><a href="#">FUE - Follicular Unit Transplant</a></li>
+            <li><a href="#">Micrografts / Minigrafts - Hair</a></li>
+            <li><a href="#">Restoration</a></li>
+            <li><a href="#">Eyebrow Transplant</a></li>
+            <li><a href="#">Eyelash Transplant</a></li>
+            <li><a href="#">Facial Hair Transplant</a></li>
+          </ul>
+        </div>
+
+      </div>
+      <div class="features-columns">
+        <div class="coloums-doctors">
+          <p id="doc2">
+            Doctors in Pune
+          </p>
+          <ul class="features-list">
+            <li><a href="#">Cancer Treatment</a></li>
+            <li><a href="#">Stem Cell Theraphy</a></li>
+            <li><a href="#">Mamogram</a></li>
+            <li><a href="#">Ovarian Cancer Treatment</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="features-columns">
+        <div class="coloums-doctors">
+          <p id="doc3">
+            Doctors in Thane
+          </p>
+          <ul class=" features-list">
+            <li><a href="#">Knee Replacement</a></li>
+            <li><a href="#">Hip Replacement</a></li>
+            <li><a href="#">Kinesiology</a></li>
+            <li><a href="#">Posture Management</a></li>
+            <li><a href="#">Cytotron Theraphy</a></li>
+            <li><a href="#">Orthopedic Spine Surgery</a></li>
+            <li><a href="#">Ankle Injury Treatment</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="features-columns">
+        <div class="coloums-doctors">
+          <p id="doc4">
+            Doctors in Pune
+          </p>
+          <ul class=" features-list">
+            <li><a href="#">Placement All-on-4 Dental Implants</a></li>
+            <li><a href="#">Implant Dentist Consultation</a></li>
+            <li><a href="#">Restoration of Implants</a></li>
+            <li><a href="#">Metal Free Implants</a></li>
+            <li><a href="#">Keyhole Dental Implants</a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  </div>
+  </section>
+  <section class="footer-container">
+    <div class="footer-section">
+      <div class="footer-logo">
+        <figure><a href="index.html"><img src="./assets/images/logo.ba23b334.png" height="40px" width="250px" alt=""
+              srcset=""></a></figure>
+        <span class="logo-text">For Verified Trusted Results</span>
+      </div>
+
+      <div class="footer-section">
+        <div class="about-us">
+          <span class="f-txt">About Us</span>
+          <ul class="feature-text">
+            <li><a href="#">Our Story</a></li>
+            <li><a href="#">The Team</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Contact Us</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-section">
+        <div class="for-doctors">
+          <span class="f-txt">For Doctors</span>
+          <ul class="feature-text">
+            <li><a href="#">Doctor Login</a></li>
+            <li><a href="#">FAQ for Doctors</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-section">
+        <div class="for-clinics">
+          <span class="f-txt">For Clinics</span>
+          <ul class="feature-text">
+            <li><a href="#">Doctor Login</a></li>
+            <li><a href="#">FAQ for Clinics</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-section">
+        <div class="for-hos">
+          <span class="f-txt">For Doctors</span>
+          <ul class="feature-text">
+            <li> <a href="#">Doctor Login</a> </li>
+            <li><a href="#">FAQ for Doctors</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer>
+    2019@ Doctor Search
+  </footer>
+</body>
+
+</html>
